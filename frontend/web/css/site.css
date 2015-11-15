@@ -89,3 +89,22 @@ a.desc:after {
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+#loading{
+    display: none;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+#loading-img{
+    position: fixed;
+    left: 40%;
+    top: 30%;
+
+}
